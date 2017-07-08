@@ -6,6 +6,7 @@
   "repository": "https://github.com/bukinoshita/shout-success.git",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "keywords": ["message", "success", "shout", "console", "handler"],
   "scripts": {
     "test": "xo --quiet"
   },
