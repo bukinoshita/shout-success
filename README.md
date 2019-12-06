@@ -5,7 +5,7 @@
 ## Install
 
 ```
-$ npm install --save shout-success
+$ yarn add shout-success
 ```
 
 
