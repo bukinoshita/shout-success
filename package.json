@@ -1,6 +1,6 @@
 {
   "name": "shout-success",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An opinionated success message",
   "main": "index.js",
   "repository": "https://github.com/bukinoshita/shout-success.git",
