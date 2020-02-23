@@ -2,10 +2,17 @@
   "name": "shout-success",
   "version": "0.0.3",
   "description": "An opinionated success message",
-  "main": "index.js",
-  "repository": "https://github.com/bukinoshita/shout-success.git",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "bukinoshita/shout-success",
   "author": "Bu Kinoshita <bukinoshita@gmail.com>",
   "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "message",
     "success",
@@ -14,17 +21,15 @@
     "handler"
   ],
   "scripts": {
-    "test": "xo --quiet"
+    "build": "tsc",
+    "prepublish": "yarn build"
   },
   "dependencies": {
-    "chalk": "^3.0.0"
+    "chalk": "3.0.0"
   },
   "devDependencies": {
-    "xo": "0.25.3"
-  },
-  "xo": {
-    "space": true,
-    "semicolon": false,
-    "esnext": true
+    "@sindresorhus/tsconfig": "0.7.0",
+    "@types/node": "13.7.4",
+    "typescript": "3.8.2"
   }
 }

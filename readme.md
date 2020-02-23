@@ -8,33 +8,34 @@
 $ yarn add shout-success
 ```
 
-
 ## Usage
-```js
-const shoutSuccess = require('shout-success')
 
-shoutSuccess('This is a success message')
-//=> > Success! This is a success message
+```js
+const { shoutSuccess } = require('shout-success')
+
+shoutSuccess('Profile saved.')
 ```
 
 _Uses [chalk](https://github.com/chalk/chalk), will return a success message with a nice color._
 
 ## API
 
-### shoutSuccess(message)
-
-Returns a `console.log`.
+### shoutSuccess(message, label)
 
 #### message
 
 Type: `string`<br>
 Required
 
+#### label
+
+Type: `string`<br>
+Default: `> Success!`
 
 ## Related
-- [shout-message](https://github.com/bukinoshita/shout-message) — An opinionated message
-- [shout-error](https://github.com/bukinoshita/shout-error) — An opinionated error message  
 
+- [shout-message](https://github.com/bukinoshita/shout-message) — An opinionated message
+- [shout-error](https://github.com/bukinoshita/shout-error) — An opinionated error message
 
 ## License
 
