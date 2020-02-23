@@ -2,6 +2,8 @@
 
 > An opinionated success message
 
+<img src="demo.png" width="500" />
+
 ## Install
 
 ```
